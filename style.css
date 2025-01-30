@@ -10,6 +10,14 @@ body.blue {
     background-color: var(--d-blue);
 }
 
+.standard-padding {
+    padding: 2rem;
+}
+
+.standard-spacing {
+    margin-bottom: 6rem;
+}
+
 @font-face {
     font-family: "Neue Montreal";
     font-weight: 200;
@@ -86,9 +94,11 @@ header h1, header p {
 header {
     display: flex;
     flex-direction: column;
-    /* width: 16rem; */
+    margin-bottom: 4rem;
 }
 
-.standard-margin {
-    margin: 2rem;
+li {
+    margin-left: -1rem;
 }
+
+
