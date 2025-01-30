@@ -1,0 +1,94 @@
+:root {
+    --d-blue: #3549FC;
+}
+
+body {
+    margin: 0;
+}
+
+body.blue {
+    background-color: var(--d-blue);
+}
+
+@font-face {
+    font-family: "Neue Montreal";
+    font-weight: 200;
+    font-style: normal;
+    src: url(font/PPNeueMontreal-Thin.otf);
+}
+
+@font-face {
+    font-family: "Neue Montreal";
+    font-weight: 200;
+    font-style: italic;
+    src: url(font/PPNeueMontreal-ThinItalic.otf);
+}
+
+@font-face {
+    font-family: "Neue Montreal";
+    font-weight: 300;
+    font-style: normal;
+    src: url(font/PPNeueMontreal-Book.otf);
+}
+
+@font-face {
+    font-family: "Neue Montreal";
+    font-weight: 400;
+    font-style: normal;
+    src: url(font/PPNeueMontreal-Regular.otf);
+}
+
+@font-face {
+    font-family: "Neue Montreal";
+    font-weight: 400;
+    font-style: italic;
+    src: url(font/PPNeueMontreal-Italic.otf);
+}
+
+@font-face {
+    font-family: "Neue Montreal";
+    font-weight: 600;
+    font-style: normal;
+    src: url(font/PPNeueMontreal-Medium.otf);
+}
+
+@font-face {
+    font-family: "Neue Montreal";
+    font-weight: 800;
+    font-style: normal;
+    src: url(font/PPNeueMontreal-Bold.otf);
+}
+
+@font-face {
+    font-family: "Neue Montreal";
+    font-weight: 800;
+    font-style: italic;
+    src: url(font/PPNeueMontreal-BoldItalic.otf);
+}
+
+h1, h2, h3, p, a, li  {
+    font-family: "Neue Montreal";
+    color: white;
+}
+
+p {
+    font-weight: 300;
+}
+
+.light {
+    font-weight: 100;
+}
+
+header h1, header p {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    /* width: 16rem; */
+}
+
+.standard-margin {
+    margin: 2rem;
+}
