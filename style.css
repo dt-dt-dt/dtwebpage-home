@@ -18,6 +18,10 @@ body.blue {
     margin-bottom: 6rem;
 }
 
+.small-spacing {
+    margin-bottom: 3rem;
+}
+
 @font-face {
     font-family: "Neue Montreal";
     font-weight: 200;
@@ -79,7 +83,11 @@ h1, h2, h3, p, a, li  {
     color: white;
 }
 
-p {
+h3 {
+    font-weight: 600;
+}
+
+p, a, li  {
     font-weight: 300;
 }
 
