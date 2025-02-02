@@ -1,0 +1,18 @@
+.standard-padding {
+    padding: 1rem;
+}
+
+.standard-side-padding {
+    padding: 0 1rem;
+}
+
+.standard-spacing {
+    margin-bottom: 8rem;
+}
+
+@media (width >= 48rem) {
+    header, main, footer {
+        width: 48rem;
+        margin: 0 auto;
+    }
+}
