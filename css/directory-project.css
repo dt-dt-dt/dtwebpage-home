@@ -1,0 +1,24 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+header, section {
+    margin: 2rem;
+}
+
+h1, h2, h3, h4 {
+    font-family: "EditorialNew-Regular", Times, serif;
+}
+
+p, a, li {
+    font-family: "EditorialNew-Ultralight", Times, serif;
+}
+
+.highlight-archived {
+    background-color: yellow;
+}
+
+@media (width > 33.5rem) {
+    header, section {
+        width: 33.5rem;
+        margin: 0 auto;
+    }
+}

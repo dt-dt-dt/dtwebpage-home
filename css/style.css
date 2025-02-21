@@ -73,6 +73,7 @@ h1 {
 
 a {
     color: yellow;
+    font-family: "EditorialNew-Regular", 'Times New Roman', Times, serif;
 }
 
 @media (width > 28.5625rem) {
