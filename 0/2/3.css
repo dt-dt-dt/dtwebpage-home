@@ -1,0 +1,19 @@
+.impact {
+    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.times {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.verdana {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    line-height: 0.55;
+}
+
+body {
+    margin: 4rem;
+}

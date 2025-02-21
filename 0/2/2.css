@@ -1,0 +1,30 @@
+p {
+    font-family: Verdana;
+}
+
+.rotate {
+    top: 6rem;
+    transform: rotate3d(7, 5, 5, 300deg);
+    color: red;
+}
+
+.rotate2 {
+    top: 6rem;
+    transform: rotate3d(29, 4, -2, 480deg);
+    color: blue;
+}
+
+.ontop div {
+    mix-blend-mode:difference;
+    position: absolute;
+    margin: 5rem;
+}
+
+.overline {
+    text-decoration: line-through;
+}
+
+.caption {
+    font-size: 4rem;
+    position: relative;
+}
