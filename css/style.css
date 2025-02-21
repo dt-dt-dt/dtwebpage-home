@@ -1,0 +1,87 @@
+:root {
+    --dblue: #3549FC;
+    --dorange: #FB2C07;
+}
+
+body {
+    background-color: var(--dblue);
+}
+
+header {
+    width: 100%;
+    height: 24rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.ontop div {
+    mix-blend-mode:hard-light;
+    position: absolute;
+}
+
+h1 {
+    font-family: "EditorialNew-Thin", Times, serif;
+    font-style: italic;
+    font-size: 4rem;
+    margin: 0;
+    color: white;
+    transform:scale(1,4);
+}
+
+.one {
+    margin: -5rem auto auto -8rem;
+    line-height: 0rem;
+    color: var(--dorange);
+    font-family: "EditorialNew-Thin";
+    font-size: 2rem;
+}
+
+.two {
+    font-family: Verdana, sans-serif;
+}
+
+.three {
+    margin: -12rem auto auto -3rem;
+    line-height: 0;
+    color: green;
+    font-family: "EditorialNew-Regular";
+    font-size: 2rem;
+    mix-blend-mode:multiply;
+    transform:scale(0.2,3);
+}
+
+
+.best-results {
+    display: flex;
+    justify-content: center;
+    font-family: "EditorialNew-Regular", 'Times New Roman', Times, serif;
+    color: white;
+    margin: 5rem 2rem;
+}
+
+.best-results p {
+    margin: 0;
+}
+
+.two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+a {
+    color: yellow;
+}
+
+@media (width > 28.5625rem) {
+    .best-results {
+        width: 28.5625rem;
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+    }
+}
