@@ -87,3 +87,14 @@ header {
     font-size: 8rem;
     margin: 0;
 }
+
+@media (width >= 48rem) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .general-sec {
+        width: 48rem;
+    }
+}
