@@ -1,4 +1,4 @@
-/* start type */
+/* start PP Montreal */
 
 @font-face {
     font-family: EditorialNew-Thin;
@@ -70,4 +70,81 @@
     font-style: italic;
 }
 
-/* end type */
+/* end PP Montreal */
+
+
+
+
+/* radio grotesk */
+
+@font-face {
+    font-family: RadioGrotesk-Ultralight;
+    src: url(/font/PPRadioGrotesk-Ultralight.otf);
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: RadioGrotesk-Ultralight;
+    src: url(/font/PPRadioGrotesk-UltralightItalic.otf);
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: RadioGrotesk-Light;
+    src: url(/font/PPRadioGrotesk-Light.otf);
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: RadioGrotesk-Light;
+    src: url(/font/PPRadioGrotesk-LightItalic.otf);
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: RadioGrotesk-Regular;
+    src: url(/font/PPRadioGrotesk-Regular.otf);
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: RadioGrotesk-Regular;
+    src: url(/font/PPRadioGrotesk-RegularItalic.otf);
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: RadioGrotesk-Bold;
+    src: url(/font/PPRadioGrotesk-Bold.otf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: RadioGrotesk-Bold;
+    src: url(/font/PPRadioGrotesk-BoldItalic.otf);
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: RadioGrotesk-Black;
+    src: url(/font/PPRadioGrotesk-Black.otf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: RadioGrotesk-Black;
+    src: url(/font/PPRadioGrotesk-BlackItalic.otf);
+    font-weight: 500;
+    font-style: italic;
+}
+
+/* radio grotesk */
