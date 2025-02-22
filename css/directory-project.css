@@ -12,13 +12,39 @@ p, a, li {
     font-family: "EditorialNew-Ultralight", Times, serif;
 }
 
+.highlight-archived, .highlight-hiatus, .highlight-important, .highlight-construction, .highlight-ongoing {
+    padding: 1rem;
+}
+
 .highlight-archived {
     background-color: yellow;
 }
 
+.highlight-hiatus {
+    background-color: lightgray;
+}
+
+.highlight-important {
+    background-color: #3549FC;
+    color: white;
+}
+
+.highlight-construction {
+    background-color: orange;
+}
+
+.highlight-ongoing {
+    background-color: aquamarine;
+}
+
 @media (width > 33.5rem) {
+    html {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     header, section {
         width: 33.5rem;
-        margin: 0 auto;
     }
 }

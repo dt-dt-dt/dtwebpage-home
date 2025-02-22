@@ -16,6 +16,10 @@ header {
     margin-top: 4rem;
 }
 
+main {
+    margin-top: 3rem;
+}
+
 .ontop div {
     mix-blend-mode:hard-light;
     position: absolute;
