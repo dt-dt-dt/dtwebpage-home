@@ -16,11 +16,11 @@ p, a, li {
     padding: 1rem;
 }
 
-.highlight-archived {
+.highlight-hiatus {
     background-color: yellow;
 }
 
-.highlight-hiatus {
+.highlight-archived {
     background-color: lightgray;
 }
 
