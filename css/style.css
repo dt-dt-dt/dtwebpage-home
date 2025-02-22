@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
 :root {
     --dblue: #3549FC;
     --dorange: #FB2C07;
@@ -35,6 +37,11 @@ h1 {
     margin: 0;
     color: white;
     transform:scale(1,4);
+}
+
+h2 {
+    font-family: "EditorialNew-Bold", Times, serif;
+    color: aquamarine;
 }
 
 .one {
@@ -81,6 +88,35 @@ h1 {
 a {
     color: yellow;
     font-family: "EditorialNew-Regular", 'Times New Roman', Times, serif;
+}
+
+a:hover, a:focus {
+    background-color: white;
+    color: #000;
+}
+
+.nav-quicklinks {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.nav-quicklinks div {
+    display: flex;
+    gap: 1rem;
+}
+
+.directory {
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+@media (width >= 25.6875rem) {
+    .nav-quicklinks {
+        flex-direction: row;
+    }
 }
 
 @media (width > 28.5625rem) {
