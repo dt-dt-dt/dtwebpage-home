@@ -118,10 +118,6 @@ a:hover, a:focus {
     border: 1rem solid white;
 }
 
-.directory:hover, .directory:focus {
-
-}
-
 .keep-it-all-into-one {
     display: inline-block;
     gap: 0.75rem;
