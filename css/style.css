@@ -115,6 +115,11 @@ a:hover, a:focus {
 .directory {
     margin-top: 2rem;
     padding: 1rem;
+    border: 1rem solid white;
+}
+
+.directory:hover, .directory:focus {
+
 }
 
 .keep-it-all-into-one {

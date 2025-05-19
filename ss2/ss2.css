@@ -1,0 +1,63 @@
+:root {
+    --orange: #fb773a;
+}
+
+html {
+    background-color: rgb(255, 254, 248);
+}
+
+p {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+body {
+    margin: 1rem;
+}
+
+.vis-hide {
+    display: none;
+}
+
+.sandwich, .social, .two{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 800;
+}
+
+.together-col * {
+    margin: 0;
+}
+
+.sandwich {
+    font-size: 3rem;
+    transform: rotate(-3deg);
+}
+
+.social {
+    font-size: 4rem;
+    margin: 0;
+    transform: rotate(1deg);
+}
+
+.two {
+    font-size: 10rem;
+    margin-top: -0.5rem;
+    margin-left: -0.55rem;
+    transform: rotate(16deg);
+}
+
+.together-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.together-row {
+    display: flex;
+    margin-top: -1rem;
+}
+
+.header-together {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
