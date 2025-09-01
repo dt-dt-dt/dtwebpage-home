@@ -18,3 +18,7 @@ a:hover, a:focus, .highlight {
     background-color: #3549FC;
     color: white;
 }
+
+.translucent {
+    opacity: 0.5;
+}
