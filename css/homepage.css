@@ -85,7 +85,6 @@ h2, h3, h4, h5 {
     margin: 6rem 1rem;
 }
 
-/* i need to grow up */
 .general-sec h2, .general-sec p, .general-sec .butt-space {
     margin: 2.5rem auto;
 }
@@ -104,11 +103,85 @@ h2, h3, h4, h5 {
     margin: 0;
 }
 
+/* fun distorted text */
+
+#escape {
+    position: relative;
+}
+
+.escape-layer {
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.escape-txt {
+    margin: unset;
+}
+
+h2.escape-txt {
+    font-size: 5.5rem;
+    line-height: 0.6;
+    letter-spacing: -0.5rem;
+}
+
+a.escape-txt {
+    color: #FB2C07;
+    background-color: #3549FC;
+}
+
+.dis1 {
+    margin: 0;
+    font-size: 3rem;
+    overflow: wrap;
+}
+
+p.escape-txt {
+    margin-left: 20rem;
+    overflow: hidden;
+}
+
+.spacer-4 {
+    margin: 8rem;
+}
+
+#red-pic {
+    mix-blend-mode: hard-light;
+}
+
+#red-pic:hover {
+    mix-blend-mode:overlay;
+}
+
+
 /* lets get responsive */
+
+@media (width >= 24rem) {
+    h2.escape-txt {
+        font-size: 8rem;
+        line-height: 0.6;
+        letter-spacing: -0.5rem;
+    }
+}
+
+@media (width >= 36rem) {
+    h2.escape-txt {
+        font-size: 12rem;
+        line-height: 0.6;
+        letter-spacing: -0.5rem;
+    }
+}
 
 @media (width >= 48rem) {
     .two-col {
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+
+    h2.escape-txt {
+        font-size: 16rem;
+        line-height: 0.6;
+        letter-spacing: -0.5rem;
+        margin-left: 4rem;
     }
 }
