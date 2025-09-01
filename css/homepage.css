@@ -5,14 +5,13 @@
     --dorange: #FB2C07;
 }
 
-
 body {
     background-color: var(--dblue);
     margin: 0;
 }
 
 header {
-    margin-top: 4.75rem;
+    margin-top: 4.75rem; 
     display: flex;
 }
 
@@ -23,11 +22,14 @@ h1 {
     font-size: 3rem;
     color: white;
     transform:scale(1,4);
+    margin: 0;
 }
 
 p {
     font-family: Verdana, sans-serif;
 }
+
+/* private parts reporting for doody */
 
 .nav-butt {
     background-color: rgb(255, 251, 0);
@@ -41,10 +43,11 @@ p {
 .border-only {
     box-shadow: 0 0 0 0.25rem white inset;
     background-color: unset;
+    padding: 1rem;
     color: white;
 }
 
-.nav-butt:hover, .nav-butt:active {
+.nav-butt:hover, .nav-butt:active, .border-only:hover, .border-only:active {
     background-color: black;
     color: white;
     box-shadow: unset;
@@ -62,7 +65,6 @@ p {
 .marquee1, .marquee2 {
     background-color: red;
     color: white;
-    box-sizing: border-box;
 }
 .marquee1 p {
     display: inline-block;
@@ -70,3 +72,20 @@ p {
 }
 
 /* end robbery */
+
+h2, h3, h4, h5, p, li {
+    color: white;
+}
+
+h2, h3, h4, h5 {
+    font-family: 'Arial Narrow', Arial, sans-serif, sans-serif;
+}
+
+.general-sec {
+    margin: 6rem 1rem;
+}
+
+/* i need to grow up */
+.general-sec h2, .general-sec p, .general-sec .butt-space {
+    margin: 2.5rem auto;
+}
