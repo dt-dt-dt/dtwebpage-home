@@ -65,6 +65,8 @@ p {
 .marquee1, .marquee2 {
     background-color: red;
     color: white;
+    position: fixed;
+    top: 0;
 }
 .marquee1 p {
     display: inline-block;
