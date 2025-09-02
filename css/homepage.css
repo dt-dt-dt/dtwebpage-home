@@ -162,7 +162,7 @@ footer {
     align-items: center;
 }
 
-footer p {
+footer a {
     font-size: 5rem;
     font-family: 'Arial Narrow', Arial, sans-serif;
     letter-spacing: -0.5rem;
@@ -171,6 +171,13 @@ footer p {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    color: white;
+    text-decoration: line-through;
+    background-color: #FB2C07;
+}
+
+footer a:hover {
+    background-color: black;
 }
 /* lets get responsive */
 
