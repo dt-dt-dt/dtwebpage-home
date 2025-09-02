@@ -153,7 +153,23 @@ p.escape-txt {
     mix-blend-mode:overlay;
 }
 
+footer {
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+footer p {
+    font-size: 5rem;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: -0.5rem;
+    transform: scaleY(4);
+    line-height:0.5;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
 /* lets get responsive */
 
 @media (width >= 24rem) {
