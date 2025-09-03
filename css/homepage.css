@@ -29,6 +29,7 @@ p {
     font-family: Verdana, sans-serif;
 }
 
+
 /* private parts reporting for doody */
 
 .nav-butt {
@@ -155,15 +156,22 @@ p.escape-txt {
     mix-blend-mode:overlay;
 }
 
-footer {
+#el2 {
+    display: flex;
+    width: 100%;
+    margin-top: 20rem;
+    justify-content: left;
+}
+
+.flasher1 {
     margin-top: 8rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-footer a {
-    font-size: 5rem;
+.flasher1 a {
+    font-size: 3rem;
     font-family: 'Arial Narrow', Arial, sans-serif;
     letter-spacing: -0.5rem;
     transform: scaleY(4);
@@ -176,9 +184,16 @@ footer a {
     background-color: #FB2C07;
 }
 
-footer a:hover {
+.flasher1 a:hover {
     background-color: black;
 }
+
+a:hover {
+    background-color: black;
+    color: white;
+}
+
+
 /* lets get responsive */
 
 @media (width >= 24rem) {
@@ -201,6 +216,14 @@ footer a:hover {
     .two-col {
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+
+    #el2 {
+        justify-content: end;
+    }
+
+    .flasher1 a {
+        font-size: 5rem;
     }
 
     h2.escape-txt {
