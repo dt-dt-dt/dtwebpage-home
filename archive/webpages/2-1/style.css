@@ -1,0 +1,245 @@
+/* Inter Typeface */
+
+:root {
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+  }
+  @supports (font-variation-settings: normal) {
+    :root { font-family: InterVariable, sans-serif; }
+  }
+
+body {
+    background-color: #232323;
+}
+
+/* Roboto Mono */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+/* w95 font courtesy of https://arnesava.github.io/w95font/ */
+
+@font-face {
+    font-family: 'W95font';
+    src: url('w95font/webfont/w95font.woff2') format('woff2'),
+         url('w95font/webfont/w95font.woff') format('woff');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'W95font';
+    src: url('w95font/webfont/w95font-bold.woff2') format('woff2'),
+         url('w95font/webfont/w95font-bold.woff') format('woff');
+    font-weight: bold;
+
+}
+
+h2, p {
+    font-family: 'W95font', sans-serif;
+    color: #fff;
+    padding: 5px;
+    font-size: medium;
+}
+
+h3 {
+    font-family: 'W95font', sans-serif;
+    color: #fff;
+    padding: 5px;
+    margin: 10px 0px -5px 0px;
+    font-size: 15px;
+}
+
+.header, .section, .footer{
+    border: 0.5px solid #bdbdbd;
+    width: 600px;
+}
+
+.box {
+    margin-top: 8em;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-long {
+    margin-top: 5em;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-full {
+    margin-top: 0;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1, .footer p {
+    font-size: unset;
+    font-family: 'W95font', sans-serif;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    padding: 5px;
+}
+
+a {
+    color: cadetblue;
+}
+
+ul.collinks {
+    font-family: 'W95font', sans-serif;
+    color: #fff;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.section {
+    border-width: 0px 0.25px;
+    display: flex;
+}
+
+.smallcol {
+    width: 100px;
+    border-right: #bdbdbd solid 0.5px;
+}
+
+.bigcol {
+    width: 100%;
+}
+
+.bigcol p, h2 {
+    margin: 0;
+}
+
+.bigcol.projects h2{
+    margin-top: 16px;
+}
+
+.bigcol.projects p {
+    margin-top: -8px;
+}
+
+#ongoing {
+    color: #907bef;
+}
+
+#complete {
+    color: #b9b9b9;
+}
+
+#hiatus {
+    color: #ecbd24;
+}
+
+.header-logo {
+    width: 98%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.nav a {
+    font-family: 'W95font', sans-serif;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav li:hover {
+    background-color: rgb(80, 48, 220);
+    color: #fff;
+}
+
+.nav li.selected {
+    background-color: rgb(236, 219, 36);
+    color: #232323;
+}
+
+.secret li {
+    color: #232323;
+}
+
+.secret li:hover {
+    background-color: rgb(47, 44, 57);
+    color: #232323;
+}
+
+.faded {
+    opacity: 50%;
+    font-style: italic;
+}
+
+@media (max-width: 610px) {
+    .box, .header, .section, .footer {
+        width: 100%;
+    }
+    .box-long, .box{
+        margin-top: unset;
+    }
+    .row {
+        flex-direction: column;
+    }
+}
+
+/* filter projects */
+
+/* .filter-projects {
+    padding: 5px;
+}
+
+.filter-projects-btn {
+    border: #fff solid 0.25px;
+    background-color: #232323;
+    color: #fff;
+    font-family: 'W95font', sans-serif;
+    margin-bottom: 7.5px;
+}
+
+.filter-projects-btn:hover {
+    background-color: rgb(236, 219, 36);
+    color: #232323;
+    border: unset;
+}
+
+.filterdiv {
+
+} */
+
+.mid-pic img{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+figcaption {
+    font-family: 'W95font', sans-serif;
+    font-size: normal;
+    color: #fff;
+    margin-top: 10px;
+}
+
+ul {
+    font-family: 'W95font', sans-serif;
+    color: #fff;
+    margin: 5px 0px 0px 0px;
+    list-style-type: square;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}

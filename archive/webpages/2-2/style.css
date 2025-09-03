@@ -1,0 +1,292 @@
+/* Inter Typeface */
+
+:root {
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+  }
+  @supports (font-variation-settings: normal) {
+    :root { font-family: InterVariable, sans-serif; }
+  }
+
+body {
+    background-color: #232323;
+}
+
+/* Roboto Mono */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+/* w95 font courtesy of https://arnesava.github.io/Inter/ */
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter/webfont/Inter.woff2') format('woff2'),
+         url('Inter/webfont/Inter.woff') format('woff');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter/webfont/Inter-bold.woff2') format('woff2'),
+         url('Inter/webfont/Inter-bold.woff') format('woff');
+    font-weight: bold;
+
+}
+
+h2, p {
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    padding: 5px;
+    font-size: 24px;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    padding: 5px;
+    font-size: 16px;
+}
+
+li {
+    font-size: 16px;
+}
+
+h3 {
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    padding: 5px;
+    margin: 10px 0px -5px 0px;
+    font-size: 19px;
+}
+
+.header, .section, .footer{
+    /* border: 0.5px solid #bdbdbd; */
+    width: 900px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    margin-top: 8em;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-long {
+    margin-top: 5em;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-full {
+    margin-top: 0;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1, .footer p {
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    margin: 0;
+    color: #fff;
+    padding: 5px;
+/* temp */
+    display: none;
+}
+
+a {
+    color: cadetblue;
+}
+
+ul.collinks {
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.section {
+    border-width: 0px 0.25px;
+    display: flex;
+}
+
+.smallcol {
+    width: 150px;
+    /* border-right: #bdbdbd solid 0.5px; */
+}
+
+.bigcol {
+    width: 100%;
+}
+
+.bigcol p, h2 {
+    margin: 0;
+}
+
+.bigcol.projects h2{
+    margin-top: 16px;
+}
+
+.bigcol.projects p {
+    margin-top: -8px;
+}
+
+#ongoing {
+    color: #907bef;
+}
+
+#complete {
+    color: #b9b9b9;
+}
+
+#hiatus {
+    color: #ecbd24;
+}
+
+.header-logo {
+    width: 98%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.nav a {
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.nav li:hover {
+    background-color: #5030dc;
+    color: #fff;
+}
+
+.nav li.selected {
+    background-color: #ecdb24;
+    color: #232323;
+}
+
+.secret li {
+    color: #232323;
+}
+
+.secret li:hover {
+    background-color: rgb(47, 44, 57);
+    color: #232323;
+}
+
+.faded {
+    opacity: 50%;
+    font-style: italic;
+}
+
+@media (max-width: 800px) {
+    .box, .header, .section, .footer {
+        width: 100%;
+    }
+    .box-long, .box{
+        margin-top: unset;
+    }
+    .row {
+        flex-direction: column;
+    }
+}
+
+/* filter projects */
+
+/* .filter-projects {
+    padding: 5px;
+}
+
+.filter-projects-btn {
+    border: #fff solid 0.25px;
+    background-color: #232323;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 7.5px;
+}
+
+.filter-projects-btn:hover {
+    background-color: rgb(236, 219, 36);
+    color: #232323;
+    border: unset;
+}
+
+.filterdiv {
+
+} */
+
+.mid-pic img{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+figure img {
+    width: 100%;
+}
+
+figcaption {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+}
+
+ul {
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    margin: 5px 0px 0px 0px;
+    list-style-type: square;
+}
+
+.row {
+    display: flex;
+    gap: 5px
+}
+
+.column {
+    flex: 50%;
+}
+
+.date {
+    opacity: 50%;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.header-link {
+    color: #fff;
+}
+
+.shelf {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.shelf-item {
+    flex-basis: 195px;
+    margin-right: -20px;
+}

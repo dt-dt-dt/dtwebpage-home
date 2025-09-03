@@ -25,6 +25,10 @@ h1 {
     margin: 0;
 }
 
+a {
+    color: yellow;
+}
+
 p {
     font-family: Verdana, sans-serif;
 }
@@ -193,6 +197,20 @@ a:hover {
     color: white;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8rem auto;
+}
+
+footer img {
+    width: 4rem;
+}
+
+footer p {
+    margin: 0.25rem;
+}
 
 /* lets get responsive */
 

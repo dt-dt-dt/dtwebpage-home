@@ -1,0 +1,39 @@
+/* 
+    Don't use this file to edit your site style! Create a different CSS file for that.
+    This file defines how custom elements (like sitebox) will look like.
+    Setting CSS that breaks main nekoweb site on purpose is prohibited and may result in ban and site deletion! 
+*/
+
+/* Must start with ".site-box". Change how your website will appear on main nekoweb site: https://lune.dimden.dev/405a44b7e5.png */
+
+.site-box {
+    background-image: url("https://dtwebpage.nekoweb.org/sitebox.png");
+    background-size: 275px 190px;
+    background-repeat: no-repeat;
+}
+
+.site-box > a > p {
+    color: #907bef;
+    font-size: 12px;
+    border: #fff solid 0.25px;
+    width: max-content;
+    padding: 5px;
+    position: relative;
+    left: 16px;
+    bottom: 7px;
+}
+
+.site-box > a > span {
+    color: #ffffff00;
+}
+
+.site-box .sitefeature {
+    visibility: hidden;
+    /* display: none; */
+}
+
+/* Style for your 'Follow on Nekoweb' button (<iframe src="https://nekoweb.org/frame/follow" frameborder="0" width="170" height="28"></iframe>) */
+.follow {
+    /* background-color: #232323;
+    border: #fff solid 0.25px; */
+}

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>dtweb.page POSTs</title>
+  <link>https://dtweb.page/post</link>
+  <description>dtweb.page all blog posts. Featuring full articles in the feed!</description>
+  <lastBuildDate>
+    Sun, 02 Jun 2024 13:48:00 -0700
+  </lastBuildDate>
+  <ttl>20000</ttl>
+  <item>
+    <title>In Defence of New Media Pt. 1: Algorithms</title>
+    <link>https://dtweb.page/post/20240602-rss</link>
+    <description>
+    &lt;p&gt;I like RSS. (Really Simple Syndication) It's a way for you to subscribe to a feed through an open standard, without a proprietary platform. (e.g.: Instagram, TikTok, etc.)&lt;/p&gt;
+            &lt;p&gt;(This blog has an RSS feed. You should follow it...)&lt;/p&gt;
+            &lt;p&gt;While those parts of grassroots &quot;old web&quot; site movements like Neocities, Nekoweb, etc. are big on a 'return' to the old way of the internet, the rest of the netizens have largely moved on. Algorithmic feeds have dominated the way we consume media.&lt;/p&gt;
+            &lt;p&gt;For the two years I was off &quot;mainstream&quot; social media, I have some reflections on this.&lt;/p&gt;
+        &lt;h3&gt;An uphill battle&lt;/h3&gt;
+            &lt;p&gt;Algorithms already won. You'd be hard-pressed to find someone in real life that doesn't have some kind of mainstream social media.&lt;/p&gt;
+            &lt;p&gt;It is barely arguable as to why: RSS feeds have a problem that federated &quot;alternative&quot; social medias carry. &lt;b&gt;There's too much friction to both the creator and the user.&lt;/b&gt;&lt;/p&gt;
+            &lt;p&gt;RSS feeds and algorithmic feeds are only similar in their goal: to provide content to a user. But they approach it in radically different ways.&lt;/p&gt;
+            &lt;p&gt;Something like Instagram or TikTok are bespoke platforms that work on &quot;followers.&quot; Systems are already built-in to deliver content. The author only needs to provide the &lt;i&gt;content itself&lt;/i&gt;, and users need only tap a button&#45; mutually assuring what matters to them: content.&lt;/p&gt;
+            &lt;p&gt;RSS is an open standard, which includes points of friction for both parties.&lt;/p&gt;
+            &lt;p&gt;The user is already met with a paralyzing amount of choice. There is no such thing as &quot;the&quot; RSS reader. There are an endless amount of options, which each their own features.&lt;/p&gt;
+            &lt;p&gt;The author has much more work to do. Making an RSS feed requires you to be familiar with XML, or at the very least understand how markup languages work.&lt;/p&gt;
+            &lt;p&gt;Look, I'm biased. It's not &lt;em&gt;too&lt;/em&gt; difficult to understand how tags function. But it requires an author, in addition to creating the content, but to manage the interface of their own &quot;platform.&quot;&lt;/p&gt;
+            &lt;p&gt;As new media evolves, interfacing with computers is becoming (and has already become) simple. People will go to the past of least resistance, and with it, build a strong network.&lt;/p&gt;
+        &lt;h3&gt;Who cares about open source?&lt;/h3&gt;
+            &lt;p&gt;It's very hard to sell someone on privacy. It's even harder to sell them on open source.&lt;/p&gt;
+            &lt;p&gt;The state of online sovereignty and privacy is... not good. Google's data collecting machine has all but usurped any alternative to web services, while social media continues to engineer perfect engagement out of us. (Silver lining: people &lt;i&gt;are&lt;/i&gt; actually kind of caring, anecdotally!)&lt;/p&gt;
+            &lt;p&gt;The network effect is strong. Instagram is easy to use, and &quot;everyone's&quot; on it. Why wouldn't you?&lt;/p&gt;
+            &lt;p&gt;It's not that the alternative is worse. It's that there's no &quot;real&quot; reason to use them. It's a &quot;worse&quot; experience for everyone involve, and no sane person would go back. (...)&lt;/p&gt;
+            &lt;p&gt;There's a bit of &lt;i&gt;reflexive impotence&lt;/i&gt; &lt;sup&gt;1&lt;/sup&gt; at play here. Nothing can really be done, because people don't believe that there is a thing &lt;em&gt;to&lt;/em&gt; be done. &lt;strong&gt;It's a UX problem.&lt;/strong&gt;&lt;/p&gt;
+            &lt;p&gt;But should things be done here?&lt;/p&gt;
+        &lt;h3&gt;Indifference, not to be confused with apathy&lt;/h3&gt;
+            &lt;p&gt;When I was off social media, I had an &quot;extremist&quot; practice of abandoning all new media. I denounced all algorithmically fed content. &quot;You're under their control,&quot; I bemoaned.&lt;/p&gt;
+            &lt;p&gt;While it is always good to cut off toxic, actively bad parts of your life, (I still refuse to get back on X, formerly Twitter) it is even more important to be &lt;i&gt;aware&lt;/i&gt; of what you're experiencing.&lt;/p&gt;
+            &lt;p&gt;One of my, and many other's criticisms of new social media, is that the user is subjugated and fed mindless &quot;content.&quot; Engagement is the name of the game here, and posts are continually engineered to take up your time, and profit off you.&lt;/p&gt;
+            &lt;p&gt;With this engagement-prioritized state of content, creators will resort to tension, anger, outrage&#45; even at the cost of factual information.&lt;/p&gt;
+            &lt;p&gt;The longer you've been on the internet, (or alive for that matter.) the easier is generally is to point out fakes and frauds. Media literacy is so, &lt;em&gt;so&lt;/em&gt; important &lt;strong&gt;especially&lt;/strong&gt; with the advent of &quot;A.I.&quot; (To be elaborated in a different POST, later.)&lt;/p&gt;
+            &lt;p&gt;The death grip that new social media has on the world is hard to loosen. Despite all of X/Twitter's wrongdoings, Mastodon is still not &quot;a thing.&quot; Nobody* really cares. It hasn't become a new cultural phenonmenon.&lt;/p&gt;
+            &lt;p&gt;It is easy to disregard the content on new social media. &quot;It's all brainrot garbage,&quot; etc. But with the sheer amount of people on these platforms, it has real, tangible effects on the world. The speed of information prioritzed above all gets people moving.&lt;/p&gt;
+            &lt;p&gt;I will not be getting people to care about urbanism, transit, and better cities on solely my website, because of some &quot;moral victory&quot; that independent websites and RSS is better. That's not where people are. I am yelling to the void.&lt;/p&gt;
+            &lt;p&gt;RSS can't win against how &quot;slick&quot; and modern social media is. It may be defeatism, but the world is how it is. Besides...&lt;/p&gt;
+        &lt;h3&gt;Two things are true at once&lt;/h3&gt;
+            &lt;p&gt;Did you know there are still more ways other than social media to enjoy content? It's true!&lt;/p&gt;
+            &lt;p&gt;There's a certain pessimism among netizens, where there are really only five apps people flip through. But the internet is big, and it still exists.&lt;/p&gt;
+            &lt;p&gt;There is nothing literally blocking you from venturing outside the mainstream &quot;internet.&quot; (Not including government geo-restrictions, that require circumvention) RSS feeds still exist. Movements like &lt;a href=&quot;https://neocities.org&quot;&gt;Neocities&lt;/a&gt; and &lt;a href=&quot;https://nekoweb.org&quot;&gt;Nekoweb (where this site is hosted!)&lt;/a&gt; encourage more creative expression than social media.&lt;/p&gt;
+            &lt;p&gt;Big publications often have RSS feeds. I don't get news from Instagram, I get them from my local news site's RSS feed. For publications (like The Verge...) that don't have feeds, you can still get one. Use &lt;a href=&quot;https://morss.it/&quot;&gt;morss.it&lt;/a&gt;. It's good.&lt;/p&gt;
+            &lt;p&gt;I like how RSS provides me a non-algorithmically sorted content feed. But I also like getting things I might be interested in, cause I don't know that I'm interested in it yet.&lt;/p&gt;
+            &lt;p&gt;To be a citizen of the world, is to engage with it how it is. Algorithms won. To interface with the greater public, you have to meet them where they are.&lt;/p&gt;
+            &lt;p&gt;Should you choose not to, that's O.K. You just have to accept that you cannot reach the masses, and that might be acceptable to you.&lt;/p&gt;
+            &lt;p&gt;It's okay. The internet's not dead yet. Just relax. Care, but relax.&lt;/p&gt;
+        &lt;h3&gt;References&lt;/h3&gt;
+        &lt;p&gt;1: Fisher, Mark. &lt;i&gt;Capitalist Realism: Is There No alternative?&lt;/i&gt; (2009) p. 21&lt;/p&gt;
+    </description>
+    <pubDate>
+        Sun, 02 Jun 2024 13:48:00 -0700
+    </pubDate>
+  </item>
+
+  <item>
+    <title>Lamian Audio is dead.</title>
+    <link>https://dtweb.page/post/20240531-lamian</link>
+    <description>
+        &lt;p&gt;Lamian Audio was pretty fun for the most part. It came from a prior appreciation for the medium: how do you effecitvely tell a story with just audio?&lt;/p&gt;
+        &lt;p&gt;I have been told I had a nice voice for a while, and while I don't really believe that to be a pre-requisite, it was certainly an asset. I'm glad people like my voice.&lt;/p&gt;
+        &lt;p&gt;Friends to lovers was by far my favourite audio to do, and it's evident by just how much I posted them. It's sweet, it's emotional, and it's &quot;real.&quot;&lt;/p&gt;
+        &lt;p&gt;But I never really went beyond that. Sure, a few &quot;enemies&quot; to lovers were there, but my audios were extremely derivative. People stayed for it, clearly. My audience affectionately called me the &quot;king of friends to lovers.&quot;&lt;/p&gt;
+        &lt;p&gt;As time went on, the audio roleplay space grew. Growth is good, and it's nice to have more people appreciate this medium, but I grew increasingly tired and unhappy with this project&#45; and with the space in general.&lt;/p&gt;
+        &lt;p&gt;I got lucky with my audience. They were quite dedicated to most anything I posted. After a while, I started posting miscellaneous content, like music, &quot;actual&quot; videos, etc. It was surprisingly well-received.&lt;/p&gt;
+        &lt;p&gt;But I was increasingly worried with the state of not only my audience, but casual listeners. &quot;Boyfriend ASMR&quot; is inherently &quot;intimate.&quot; Generally, you don't listen just for funsies. Some might have, but others listened with a specific purpose: comfort. I was one of them.&lt;/p&gt;
+        &lt;p&gt;For about a year prior to this project, I heavily leaned on these audios to actually sleep in any capacity. I had gone through some things in my personal life that affected me deeply. I needed something, anything. I grew dependent on them. It was a bad time.&lt;/p&gt;
+        &lt;p&gt;And I know I'm not alone in this. When listening to these audios in a vulnerable, emotional state, you grow attached not to a person but to an avatar, a simulation. You grow accustomed to the comfort it gives you. You connect with a perfect image, because &lt;em&gt;it would never hurt you.&lt;/em&gt;&lt;/p&gt;
+        &lt;p&gt;This was my biggest concern: I was there, so how many of those listening to me would be same?&lt;/p&gt;
+        &lt;p&gt;I intentionally kept a distance from my audience. (Which should be done anyway.) I gave constant reminders to keep me accountable. Lamian Audio is not real, and it will never be real. You have to keep this mind. You must.&lt;/p&gt;
+        &lt;p&gt;Do I claim to be better than other creators in the space? ...well, kind of.&lt;/p&gt;
+        &lt;p&gt;Because of the pseudonymous nature of this space, you'll likely never see the face of an audio creator. It's an immersion thing, I get it.&lt;/p&gt;
+        &lt;p&gt;But it's so, so easy to look beyond the flaws of the person behind the channels&#45; because there &lt;i&gt;is&lt;/i&gt; no person behind it. It's abstracted by character art, comments, and whatever projected demeanour they market themselves as.&lt;/p&gt;
+        &lt;p&gt;It's a recipe for vulnerable minds to be taken advantage of and abused. There's a Google Doc floating around with &lt;i&gt;many&lt;/i&gt; allegations of creators who would solicit sexually explicit and other abusive material from fans, including minors.&lt;/p&gt;
+        &lt;p&gt;These sick fucks are effectively given a pass, because they'll disappear and pop back up once, or if they're caught. It's so easy.&lt;/p&gt;
+        &lt;p&gt;So much of this audio content online evolved to just blatant sex bait. A provocative, borderline pornographic catalogue.&lt;/p&gt;
+        &lt;p&gt;I'm not here to yuck anyone's yum, I'm really not. It's just super questionable to have this type of content on YouTube, a platform available to all ages.&lt;/p&gt;
+        &lt;p&gt;&quot;Think of the children,&quot; a claim I despise as much as you do. But it's justified here: colourful anime characters, and slick graphics will catch eyes. It's a problem when those lead to unhealthy expectations of sex.&lt;/p&gt;
+        &lt;p&gt;The state of r/GWA is quite controversial to someone not accustomed to this space. And it's O.K. to listen to that, it's fine. But it does no favours to a middle schooler with unsupervised internet access.&lt;/p&gt;
+        &lt;p&gt;They'll ignore the 18+ warning. Porn is mainstream. With this BookTok &quot;smut&quot; phenomenon and the already widely available &quot;tube&quot; sites, it's everywhere.&lt;/p&gt;
+        &lt;p&gt;Is that bad? I don't know. I'm not trying to demonize porn as some &quot;evil force.&quot; It's not really good or bad, it just &lt;em&gt;is&lt;/em&gt;.&lt;/p&gt;
+        &lt;p&gt;I fear that I've done irreperable damage to some of my more impressionable audience. I &lt;em&gt;know&lt;/em&gt; there are very young viewers in my audience. I &lt;em&gt;know&lt;/em&gt; that some have gotten unhealthily attached. It might be inherent to this medium, it might not. But it's an irrefutable fact that goes unsaid.&lt;/p&gt;
+        &lt;p&gt;How many of them prefer to listen to a simulacra of a relationship? How many will grow forever attached, terminally online, unwilling to step into the real world?&lt;/p&gt;
+        &lt;p&gt;Roleplay audios have recently seeped into the &quot;internet&quot; mainstream. The memey &quot;boyfriend hits you with a pan&quot; audios are making the rounds. It's pretty funny. But it will only grow from here.&lt;/p&gt;
+        &lt;p&gt;Media literacy is on fritz. All I can do is turn off my faucet.&lt;/p&gt;
+        &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=CRtN8Dc8IeA&quot;&gt;I posted an audio recently.&lt;/a&gt; It serves as a meta-overview of my situation. Things were nice once, but we can't go back to that. Whether you knew or not, I hurt you. We reflect and move on. We need to. It was a different time, and we'll never go back to that.&lt;/p&gt;
+        &lt;p&gt;But we can stay &quot;friends.&quot; I'm more than Lamian Audio now. Lamian Audio is dead. I'm doing cool things, and so should you.&lt;/p&gt;
+        &lt;p&gt;I just hope you'll watch and grow, as will I.&lt;/p&gt;
+        &lt;p&gt;Thanks.&lt;/p&gt;
+    </description>
+    <pubDate>
+        Fri, 31 May 2024 19:00:00 -0700
+    </pubDate>
+  </item>
+</channel>
+
+</rss>

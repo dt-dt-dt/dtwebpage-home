@@ -1,0 +1,226 @@
+@font-face {
+    font-family: 'Banquise-Regular';
+    src: url(assets/fonts/Banquise-Regular.woff);
+}
+
+@font-face {
+    font-family: 'PixelOperator';
+    src: url(assets/fonts/PixelOperator.ttf);
+}
+
+@font-face {
+    font-family: 'PixelOperator-Bold';
+    src: url(assets/fonts/PixelOperator-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'PixelOperatorMono';
+    src: url(assets/fonts/PixelOperatorMono.ttf);
+}
+
+html {
+    background-color: #f2d5cf;
+}
+
+.header {
+    /* flex properties */
+    display: flex;
+    align-items: center;
+    padding: 0px 50px 0px 50px;
+    /* for looks */
+    justify-content: space-between;
+    color: #4c4f69;
+    border-style: solid;
+    border-width: 1px;
+    margin: 0 auto;
+}
+
+.b1 {
+    /* flex properties */
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0%;
+    align-items: center;
+    justify-content: center;
+        /* for looks */
+    padding: 20px;
+    color: #4c4f69;
+    border-style: none solid solid;
+    border-width: 1px;
+}
+
+.footer {
+    /* flex properties */
+    display: flex;
+    flex: 1 1 0%;
+    align-items: center;
+    justify-content: center;
+    /* for looks */
+    color: #4c4f69;
+    gap: 50px;
+    padding: 20px;
+    border-style: none solid solid;
+    border-width: 1px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #dd7878;
+    font-family: 'PixelOperatorMono', monospace;
+}
+
+.b1 h1 {
+    width: 95%;
+}
+
+
+h2 {
+    color: #dd7878;
+    font-family: 'PixelOperatorMono', monospace;
+    font-size: 36px;
+}
+
+h3 {
+    color: #dd7878;
+    font-family: 'PixelOperatorMono', monospace;
+    font-size: 24px;
+}
+
+p {
+    color: #4c4f69;
+    font-size: 20px;
+    font-family: 'PixelOperatorMono', monospace;
+    padding: 10px;
+}
+
+a {
+    color: #e64553;
+    text-decoration: wavy;
+}
+
+ul li {
+    font-family: 'PixelOperatorMono', monospace;
+    font-size: 20px;
+}
+
+.mid-size { /* for images */
+    width: 100%;
+}
+
+.textcol {
+    display: flex;;
+    flex-direction: row;
+    gap: 20px;
+    width: 95%;
+    
+}
+
+.element {
+    width: 50%;
+}
+
+.social {
+    background-color: #4c4f69;
+    border: none;
+    color: #f2d5cf;
+    font-family: 'PixelOperatorMono', monospace;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    font-size: 24px;
+}
+
+.social a, .social-g a {
+    text-decoration: none;
+}
+
+.youtube {
+    width: 560px;
+    height: 315px;
+}
+
+.headerlinks {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+    display: flex;
+    list-style: none;
+
+  }
+
+.headerlinks li {
+    font-family: 'PixelOperatorMono', sans-serif;
+    font-size: 20px;
+    color: #e64553;
+    display: inline;
+    padding: 10px;
+    /* animation */
+    transition-property: font-size;
+    transition-property: color;
+    transition: 0.3s;
+}
+
+/* resize (responsive */
+
+/* @media(max-width:850px) {
+    .header {
+        width: 100%;
+    }
+    .b1 {
+        width: 100%;
+    }
+    .footer {
+        width: 100%;
+    }
+    
+    .youtube {
+        width: 320px;
+        height: 180px;
+    }
+} */
+
+@media(max-width:650px) {
+    .header {
+        flex-direction: column;
+
+    }
+
+    .youtube {
+        width: 320px;
+        height: 180px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+    
+    p {
+        font-size: 18px;
+    }
+
+    /* ul a {
+        /* font-size: 20px;
+    } */
+
+    .social, .social-g {
+        font-size: 16px;
+    }
+    
+    .textcol {
+        flex-direction: column;
+    }
+
+    .element {
+        width: 100%;
+    }
+}
